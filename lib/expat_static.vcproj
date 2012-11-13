@@ -4,6 +4,7 @@
 	Version="8,00"
 	Name="expat_static"
 	ProjectGUID="{BF650934-E973-4139-953B-0B48A8133C70}"
+	RootNamespace="expat_static"
 	>
 	<Platforms>
 		<Platform
@@ -41,7 +42,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;COMPILED_FROM_DSP;_LIB"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;COMPILED_FROM_DSP;_LIB;_CRT_SECURE_NO_WARNINGS"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
 				PrecompiledHeaderFile=".\..\win32\tmp\Debug_static/expat_static.pch"
@@ -116,7 +117,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_LIB;COMPILED_FROM_DSP"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_LIB;COMPILED_FROM_DSP;_CRT_SECURE_NO_WARNINGS"
 				StringPooling="true"
 				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"

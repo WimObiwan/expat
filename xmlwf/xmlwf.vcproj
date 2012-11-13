@@ -4,6 +4,7 @@
 	Version="8,00"
 	Name="xmlwf"
 	ProjectGUID="{EED768CF-9C49-47FC-A9FE-CF4A81A1DEE5}"
+	RootNamespace="xmlwf"
 	>
 	<Platforms>
 		<Platform
@@ -44,7 +45,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories="..\lib"
-				PreprocessorDefinitions="NDEBUG;WIN32;_CONSOLE;COMPILED_FROM_DSP"
+				PreprocessorDefinitions="NDEBUG;WIN32;_CONSOLE;COMPILED_FROM_DSP;_CRT_SECURE_NO_WARNINGS"
 				StringPooling="true"
 				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
@@ -132,7 +133,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="..\lib"
-				PreprocessorDefinitions="_DEBUG;WIN32;_CONSOLE;COMPILED_FROM_DSP"
+				PreprocessorDefinitions="_DEBUG;WIN32;_CONSOLE;COMPILED_FROM_DSP;_CRT_SECURE_NO_WARNINGS"
 				RuntimeLibrary="1"
 				PrecompiledHeaderFile=".\..\win32\tmp\Debug-xmlwf/xmlwf.pch"
 				AssemblerListingLocation=".\..\win32\tmp\Debug-xmlwf/"

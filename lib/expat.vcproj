@@ -48,7 +48,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="_DEBUG;COMPILED_FROM_DSP;WIN32;_WINDOWS;_USRDLL"
+				PreprocessorDefinitions="_DEBUG;COMPILED_FROM_DSP;WIN32;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
 				PrecompiledHeaderFile=".\..\win32\tmp\Debug/expat.pch"
@@ -143,7 +143,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_USRDLL;COMPILED_FROM_DSP"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_USRDLL;COMPILED_FROM_DSP;_CRT_SECURE_NO_WARNINGS"
 				StringPooling="true"
 				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"

@@ -30,7 +30,7 @@
 #define tcsrchr strrchr
 #define tcslen strlen
 #define tperror perror
-#define topen open
+#define topen _open
 #define tmain main
 #define tremove remove
 #endif /* not XML_UNICODE */

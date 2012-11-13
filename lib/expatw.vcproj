@@ -4,6 +4,7 @@
 	Version="8,00"
 	Name="expatw"
 	ProjectGUID="{1CA18437-B3FC-4EB7-8532-EF8F0282287E}"
+	RootNamespace="expatw"
 	>
 	<Platforms>
 		<Platform
@@ -48,7 +49,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				PreprocessorDefinitions="NDEBUG;COMPILED_FROM_DSP;WIN32;_WINDOWS;_USRDLL;XML_UNICODE_WCHAR_T"
+				PreprocessorDefinitions="NDEBUG;COMPILED_FROM_DSP;WIN32;_WINDOWS;_USRDLL;XML_UNICODE_WCHAR_T;_CRT_SECURE_NO_WARNINGS"
 				StringPooling="true"
 				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
@@ -140,7 +141,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="_DEBUG;COMPILED_FROM_DSP;WIN32;_WINDOWS;_USRDLL;XML_UNICODE_WCHAR_T"
+				PreprocessorDefinitions="_DEBUG;COMPILED_FROM_DSP;WIN32;_WINDOWS;_USRDLL;XML_UNICODE_WCHAR_T;_CRT_SECURE_NO_WARNINGS"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
 				PrecompiledHeaderFile=".\..\win32\tmp\Debug-w/expatw.pch"
